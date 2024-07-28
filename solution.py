@@ -16,4 +16,5 @@ for s in x:
             else:
                 y[s[i]] = [s[0]]
 
+
 print(y)
