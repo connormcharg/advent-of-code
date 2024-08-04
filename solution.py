@@ -6,6 +6,7 @@ x >> y is x right shift y places
 ~ is bitwise not
 """
 
+
 def signal_and(s1, s2):
     return truncate(s1 & s2)
 
