@@ -3,8 +3,6 @@ from copy import deepcopy
 grid = [[int(y) for y in x.replace(".", "0").replace("#", "1").replace("^", "2")] for x in open(0).read().splitlines()]
 rotate = lambda d: (d[1], -d[0])
 
-# ONLY CHECK THE SQUARES THAT WERE GONE THROUGH IN PART 1!!!
-
 def check(grid, block):
     p, d = (-1, -1), (-1, 0)
     seen = set()
